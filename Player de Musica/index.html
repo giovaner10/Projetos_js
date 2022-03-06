@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Player Spotify</title>
+</head>
+
+<body>
+<section id="container"> 
+    
+        <img src="images/rock.jpg" alt="img nao carregada" id="img">
+    
+        <section class="descricao">
+            
+            <h2 id="nameMsc">Nome da musica</h2>
+            <i id="artista">nome do artista</i>
+        </section>
+    
+        <section class="duracao">
+            <aside id="barra">
+                <progress value="1" max="1" id="progress"></progress>
+                <aside id="ponto"></aside>
+            </aside>
+    
+            <aside id="tempo">
+                <p id="incio">0:00</p>
+                <p id="fim">4:00</p>
+            </aside>
+        </section>
+    
+        <section class="player">
+    
+            <i class="large material-icons" id="voltar">fast_rewind</i>
+    
+            <i class="large material-icons" id="play">play_arrow</i>
+    
+            <i class="large material-icons" id="pause">pause</i>
+    
+            <i class="large material-icons" id="pular">fast_forward</i>
+    
+    
+        </section>
+    
+        <audio  src="audio/rock.mp3" id="musica"></audio>
+</section>
+        
+    <script src="script.js"></script>
+</body>
+
+</html>

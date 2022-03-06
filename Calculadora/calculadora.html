@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculadora</title>
+</head>
+
+<body>
+    <section id="display">
+
+        <section id="calculador">
+            <p id="resultado"></p>
+            <section id="calculadora">
+
+
+                <section id="f1">
+                    <p onclick="insert('7')">7</p>
+                    <p onclick="insert('4')">4</p>
+                    <p onclick="insert('1')">1</p>
+                    <p onclick="clean()">C</p>
+                </section>
+
+                <section id="f2">
+                    <p onclick="insert('8')">8</p>
+                    <p onclick="insert('5')">5</p>
+                    <p onclick="insert('2')">2</p>
+                    <p onclick="insert('0')">0</p>
+                </section>
+
+                <section id="f3">
+                    <p onclick="insert('9')">9</p>
+                    <p onclick="insert('6')">6</p>
+                    <p onclick="insert('3')">3</p>
+                    <p onclick="result()">=</p>
+
+                </section>
+
+                <section id="f4">
+                    <p onclick="insert('+')">+</p>
+                    <p onclick="insert('-')">-</p>
+                    <p onclick="insert('*')">*</p>
+                    <p onclick="insert('/')">/</p>
+                    <p onclick="insert('.')">.</p>
+                    <p onclick="del()"><</p>
+                </section>
+            </section>
+
+        </section>
+
+        <script src="calc.js"></script>
+</body>
+
+</html>

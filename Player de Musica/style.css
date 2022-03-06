@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Smooch+Sans:wght@100&display=swap');
+
+
+body, html{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333;
+    color:#ddd;
+}
+#container{
+    background-color: rgb(14, 13, 13);
+    padding: 15px;
+}
+#img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.descricao{
+    width: 300px;
+    line-height: 0.2;
+}
+
+#artista{
+    font-family: 'Karla', sans-serif;
+}
+
+#nameMsc{
+    font-family: 'Smooch Sans', sans-serif;
+
+}
+
+.duracao{
+    width: 300px;
+    margin-top: 25px;
+}
+
+#barra{
+    width: 300px;
+    height: 6px;
+    border: 1px solid rgb(245, 182, 182);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+#progress{
+    height: 100%;
+    width: 0;
+    background-color: rgb(190, 177, 177);
+    border-radius: 5px;
+}
+
+
+#ponto{
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-left: -5px ;
+    cursor: pointer;
+}
+
+
+#tempo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.player{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+#play, #pause{
+    font-size: 50px;
+    cursor: pointer;
+
+}
+
+#voltar, #pular{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+#pause{
+    display: none;
+}
